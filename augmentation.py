@@ -7,12 +7,12 @@ from tqdm import tqdm
 import cv2
 
 # Paths for input and output directories
-input_dir = Path("D:\\Vegetable identification dataset\\Original dataset\\Onion")
-output_dir = Path("D:\\Vegetable identification dataset\\Augmented dataset\\Augmented Onion")
+input_dir = Path("C:\\Users\\AC\\Desktop\\new")
+output_dir = Path("C:\\Users\\AC\\Desktop\\up")
 output_dir.mkdir(parents=True, exist_ok=True)
 
 # Total number of augmented images needed
-target_count = 4966
+target_count = 9
 current_count = len(list(input_dir.glob("*.jpg")))  # Assumes .jpg format; adjust as needed
 augmentation_needed = target_count - current_count
 
