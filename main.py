@@ -42,8 +42,8 @@ def process_images(input_folder, output_folder):
 
 
 # Define input and output folder paths
-input_folder = r'D:\research pic\onion'  # Replace with your actual input folder path
-output_folder = r'D:\bg removed pic\Onion'  # Replace with your desired output folder path
+input_folder = r'D:\guava\leaf_blight'  # Replace with your actual input folder path
+output_folder = r'D:\bg_rm_guava\bg_rm_leaf_blight'  # Replace with your desired output folder path
 
 # Run the process
 process_images(input_folder, output_folder)
