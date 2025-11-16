@@ -7,12 +7,12 @@ from tqdm import tqdm
 import cv2
 
 # Paths for input and output directories
-input_dir = Path("C:\\Users\\AC\\Desktop\\new")
-output_dir = Path("C:\\Users\\AC\\Desktop\\up")
+input_dir = Path("D:\\Guava Dataset\\Guava DataSet\\bg removed healthy leaves")
+output_dir = Path("D:\\guava final ds\\healthy")
 output_dir.mkdir(parents=True, exist_ok=True)
 
 # Total number of augmented images needed
-target_count = 9
+target_count = 2001
 current_count = len(list(input_dir.glob("*.jpg")))  # Assumes .jpg format; adjust as needed
 augmentation_needed = target_count - current_count
 
